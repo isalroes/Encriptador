@@ -65,7 +65,7 @@ body{
 .resultado{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+ /*   align-items: flex-start;*/
     padding: 0px;
     gap: 16px;
     position: absolute;
@@ -81,7 +81,7 @@ body{
 .mensajes-resultado{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    /*align-items: flex-start;*/
     padding: 0px;
     gap: 16px;
     
@@ -93,8 +93,8 @@ body{
 }
 
 .output-mensaje{
-    width: calc(90%);
-    height: calc(90%);
+    width: calc(85%);
+    height: calc(85%);
     visibility: hidden;
     font-family: 'Inter';
     font-style: normal;
@@ -102,6 +102,14 @@ body{
     font-size: 24px;
     line-height: 120%;
     visibility: hidden;
+    left: calc(80%);
+    /*top: 650px;*/
+    border: none;
+    align-self: auto;
+    margin: 1em;
+    padding: 10px;
+    /*text-align: center;
+    align-self: center;*/
 }
 
 .mensaje-01{
@@ -120,7 +128,7 @@ body{
     color: #343A40;
     
     order: 0;
-    align-self: stretch;
+    align-self: center;
     flex-grow: 0;
 }
 
@@ -140,7 +148,7 @@ body{
     color: #495057;
     
     order: 1;
-    align-self: stretch;
+    align-self: center;
     flex-grow: 0;
 }
 
